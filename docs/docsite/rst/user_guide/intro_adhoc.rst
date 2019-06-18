@@ -5,32 +5,24 @@ Introduction To Ad-Hoc Commands
 
 .. contents:: Topics
 
-The following examples show how to use `/usr/bin/ansible` for running
-ad hoc tasks. 
+The following examples show how to use `/usr/bin/ansible` for running ad hoc tasks. 
 
 What's an ad-hoc command?
 
-An ad-hoc command is something that you might type in to do something really
-quick, but don't want to save for later.
+An ad-hoc command is something that you might type in to do something really quick, but don't want to save for later.
 
-This is a good place to start to understand the basics of what Ansible can do
-prior to learning the playbooks language -- ad-hoc commands can also be used
-to do quick things that you might not necessarily want to write a full playbook for.
+This is a good place to start to understand the basics of what Ansible can do prior to learning the playbooks language -- ad-hoc commands can also be used to do quick things that you might not necessarily want to write a full playbook for.
 
 Generally speaking, the true power of Ansible lies in playbooks.
 Why would you use ad-hoc tasks versus playbooks?
 
-For instance, if you wanted to power off all of your lab for Christmas vacation,
-you could execute a quick one-liner in Ansible without writing a playbook.
+For instance, if you wanted to power off all of your lab for Christmas vacation, you could execute a quick one-liner in Ansible without writing a playbook.
 
-For configuration management and deployments, though, you'll want to pick up on
-using '/usr/bin/ansible-playbook' -- the concepts you will learn here will
-port over directly to the playbook language.
+For configuration management and deployments, though, you'll want to pick up on using '/usr/bin/ansible-playbook' -- the concepts you will learn here will port over directly to the playbook language.
 
 (See :doc:`playbooks` for more information about those)
 
-If you haven't read :doc:`intro_inventory` already, please look that over a bit first
-and then we'll get going.
+If you haven't read :doc:`intro_inventory` already, please look that over a bit first and then we'll get going.
 
 .. _parallelism_and_shell_commands:
 
